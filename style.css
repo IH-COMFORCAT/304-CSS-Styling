@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
     border: 0;
     margin: 0;
     padding: 0;
@@ -81,6 +82,38 @@ a {
     color: yellow;
 }
 
+a:hover {
+    color: aquamarine;
+}
+
 a[href*="iron"] {
     color: green;
+}
+
+.box {
+    background-color: red;
+    width: 240px;
+    height: 240px;
+    border-right: 4px solid blueviolet;
+    border-left: 4px solid black;
+    border-top: 4px solid blue;
+    border-bottom: 4px solid yellow;
+    border-radius: 50%;
+    margin: 25px 10px 45px 45px;
+}
+
+.box:hover {
+    background-color: fuchsia;
+}
+
+.squared-box {
+    margin: 15px;
+    background-color: #5bc0ebff;
+    width: 250px;
+    height: 75px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    overflow: scroll;
 }
