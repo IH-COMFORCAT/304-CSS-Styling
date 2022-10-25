@@ -19,7 +19,6 @@ h1 {
     color: var(--key-lime);
     width: 300px;
     height: 200px;
-    font-size: 68px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -42,4 +41,46 @@ h1 {
 .default-background {
     background: rgb(13, 226, 196);
     background: linear-gradient(124deg, rgba(13, 226, 196, 1) 0%, rgba(0, 174, 255, 0.427608543417367) 100%);
+}
+
+li {
+    background-color: var(--flame);
+    margin-bottom: 0.2rem;
+    color: var(--key-lime);
+    padding-left: 0.1rem;
+}
+
+#to-do li {
+    background-color: aqua;
+    color: black;
+}
+
+.current-task {
+    background-color: red;
+    color: wheat;
+}
+
+.current-task+li {
+    background-color: yellow;
+    color: #5bc0ebff;
+}
+
+h2,
+h4,
+h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+h6 {
+    color: rebeccapurple;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+a[href*="iron"] {
+    color: green;
 }
