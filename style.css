@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    --old-lavender: #7d6f86ff;
+    --cyan-process: #5bc0ebff;
+    --key-lime: #ddf093ff;
+    --flame: #e55934ff;
+    --pumpkin: #fa7921ff;
+}
+
+h1 {
+    color: aliceblue;
+    background-color: var(--old-lavender);
+}
+
+#main-header {
+    color: var(--key-lime);
+    width: 300px;
+    height: 200px;
+    font-size: 68px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.big-text {
+    font-size: 46px;
+    font-weight: 800;
+
+}
+
+.subtitle-header {
+    color: green;
+    background-color: yellow;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+.default-background {
+    background: rgb(13, 226, 196);
+    background: linear-gradient(124deg, rgba(13, 226, 196, 1) 0%, rgba(0, 174, 255, 0.427608543417367) 100%);
+}
